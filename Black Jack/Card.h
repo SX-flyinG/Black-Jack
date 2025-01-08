@@ -10,7 +10,7 @@ public:
         int index = 0;
         int card = 0 ;
         for (int i = 0; i < 52; i++) {
-            if (i % 4 == 0) {
+            if (i % 4 == 0 && i != 0) {
                 card++;
             }
             Cards[index++] = ranks[card];
